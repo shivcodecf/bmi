@@ -24,7 +24,7 @@ button.addEventListener('click', () => {
         const bmi = (weight / ((height*height)/10000)).toFixed(2);
 
         if(bmi < 18.6){
-            result.innerHTML = 'Under weight : ' + bmi +   'weighing less than the normal amount for one's age, height, and build' ;
+            result.innerHTML = 'Under weight : ' + bmi + 'weighing less than the normal amount' ;
         }else if(bmi >= 18.6 && bmi < 24.9){
             result.innerHTML = 'Normal : ' + bmi;
         }else{
